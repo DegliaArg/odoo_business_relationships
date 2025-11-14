@@ -103,6 +103,7 @@
   <record id="view_business_relationship_list" model="ir.ui.view">
     <field name="name">res.partner.business_relationship.list</field>
     <field name="model">res.partner.business_relationship</field>
+    <field name="type">tree</field>
     <field name="arch" type="xml">
       <list string="Business Relationship">
         <field name="sequence" widget="handle"/>
